@@ -1,0 +1,27 @@
+{
+  "lcount": 129,
+  "rcount": 189,
+  "stats": [
+    {
+      "type": "AAA",
+      "pend": "100",
+      "Inprog": "50",
+      "app": "25",
+      "color": "#FF5722"
+    },
+    {
+      "type": "BBB",
+      "pend": "110",
+      "Inprog": "60",
+      "app": "35",
+      "color": "#9C27B0"
+    },
+    {
+      "type": "CCC",
+      "pend": "90",
+      "Inprog": "30",
+      "app": "5",
+      "color": "#673AB7"
+    }
+  ]
+}

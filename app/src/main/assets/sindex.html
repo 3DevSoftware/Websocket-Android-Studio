@@ -1,0 +1,26 @@
+<html>
+<head>
+	<script>
+		function tone() {
+			app.tone(100);
+			app.tone(200);
+		}
+
+		function showLoadingMask() {
+			app.showLoadingMask();
+			setTimeout(hideLoadingMask, 5000);
+		}
+
+		function hideLoadingMask() {
+			app.hideLoadingMask();
+		}
+	</script>
+</head>
+<body>
+    <button type="button" onclick="tone()">Play Tone</button><br/>
+    <button type="button" onclick="showLoadingMask()">Show Loading Mask</button><br><br>
+    <button type="button" onclick="alert(app.getProperty("VersionName"))">Version Name</button><br/>
+    <button type="button" onclick="alert(app.getProperty("BuildDate"))">Build Date</button><br/>
+    <button type="button" onclick="alert(app.getProperty("OSVersion"))">OS Version</button><br/>
+</body>
+</html>

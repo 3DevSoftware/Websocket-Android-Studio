@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Websocket app</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="title_activity_swipe">SwipeActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
